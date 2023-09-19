@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Desplazamiento de imágenes hacia la derecha</title>
+    <style>
+        .contenedor {
+            width: 300px; /* Ancho del contenedor */
+            overflow: hidden; /* Oculta el contenido que se desborda */
+        }
+
+        .imagenes {
+            display: flex; /* Establece un contenedor flexible para las imágenes */
+            animation: desplazar 5s linear infinite; /* Aplica una animación que se repite infinitamente */
+        }
+
+        .imagen {
+            width: 100px; /* Ancho de cada imagen */
+            height: 100px; /* Altura de cada imagen */
+            margin-right: 10px; /* Espacio entre las imágenes */
+        }
+
+        /* Define la animación */
+        @keyframes desplazar {
+            0% {
+                transform: translateX(0); /* Posición inicial (sin desplazamiento) */
+            }
+            100% {
+                transform: translateX(-100%); /* Desplazamiento hacia la derecha del 100% del ancho */
+            }
+        }
+    </style>
+</head>
+<body>
+    <div class="contenedor">
+        <div class="imagenes">
+            <img src="imagen1.jpg" alt="Imagen 1" class="imagen">
+            <img src="imagen2.jpg" alt="Imagen 2" class="imagen">
+            <img src="imagen3.jpg" alt="Imagen 3" class="imagen">
+            <img src="imagen3.jpg" alt="Imagen 3" class="imagen">
+            <img src="imagen3.jpg" alt="Imagen 3" class="imagen">
+            <img src="imagen3.jpg" alt="Imagen 3" class="imagen">
+            <img src="imagen3.jpg" alt="Imagen 3" class="imagen">
+            <img src="imagen3.jpg" alt="Imagen 3" class="imagen">
+            <img src="imagen3.jpg" alt="Imagen 3" class="imagen">
+            <!-- Agrega más imágenes según sea necesario -->
+        </div>
+    </div>
+</body>
+</html>

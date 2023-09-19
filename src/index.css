@@ -1,0 +1,31 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@font-face {
+  font-family: 'monolisa'; /* Nombre que asignarás a la fuente */
+  src: url('../public/Monolisa\ Font.ttf') format('truetype');
+  font-weight:900; /* Ruta al archivo de fuente */
+  /* Puedes agregar más formatos aquí para garantizar la compatibilidad con diferentes navegadores */
+}
+
+body {
+  font-family: 'monolisa';
+  background: #101e2e;
+  margin: 0;
+  padding: 0;
+  min-height: 100vh;
+  position: relative;
+  /* Ajusta el tamaño y el espaciado según tus preferencias */
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+  background-size: cover; /* Utiliza la fuente definida */
+}
+
+html {
+  scroll-behavior: smooth;
+}
+
+#root {
+  min-height: 100vh;
+}

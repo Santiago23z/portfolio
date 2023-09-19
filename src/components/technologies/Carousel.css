@@ -1,0 +1,14 @@
+@keyframes desplazar-izquierda {
+    0% {
+      transform: translateX(30%);
+    }
+    100% {
+      transform: translateX(0);
+    }
+  }
+  
+  .animation-desplazar-izquierda {
+    animation: desplazar-izquierda 3s linear infinite alternate;
+  }
+  
+  
