@@ -5,18 +5,18 @@ import Navbar from "./components/navbar";
 import Technologies from './components/technologies/index'
 import YoInfo from "./components/infoMe";
 import Footer from "./components/footer";
-function Routes () {
-  let rutas = useRoutes([
-    {path:"/projects", element:<Projects/>}
-  ])
-  return rutas
-}
+// function Routes () {
+//   let rutas = useRoutes([
+//     {path:"/projects", element:<Projects/>}
+//   ])
+//   return rutas
+// }
 
 
 function App() {
   return (
     <BrowserRouter>
-      <Routes />
+      {/* <Routes /> */}
       <Navbar />
       <main>
       <Typewriter />
