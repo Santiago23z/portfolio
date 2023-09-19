@@ -1,5 +1,5 @@
 import { BrowserRouter, useRoutes } from "react-router-dom"
-import Projects from "./components/Projects/Index"
+import Projects from "./components/projectss/Index";
 import Typewriter from "./components/AboutMe"
 import Navbar from "./components/navbar";
 import Technologies from './components/technologies/index'
