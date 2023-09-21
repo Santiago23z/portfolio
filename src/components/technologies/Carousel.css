@@ -1,6 +1,6 @@
 @keyframes desplazar-izquierda {
     0% {
-      transform: translateX(30%);
+      transform: translateX(49%);
     }
     100% {
       transform: translateX(0);

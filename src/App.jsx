@@ -5,6 +5,7 @@ import Navbar from "./components/navbar";
 import Technologies from './components/technologies/index'
 import YoInfo from "./components/infoMe";
 import Footer from "./components/footer";
+import { ProviderContext} from "./helpers/Context";
 // function Routes () {
 //   let rutas = useRoutes([
 //     {path:"/projects", element:<Projects/>}
@@ -15,7 +16,8 @@ import Footer from "./components/footer";
 
 function App() {
   return (
-    <BrowserRouter>
+    <ProviderContext>
+      <BrowserRouter>
       {/* <Routes /> */}
       <Navbar />
       <main>
@@ -26,6 +28,7 @@ function App() {
       </main>
       <Footer />
     </BrowserRouter>
+    </ProviderContext>
   )
 }
 

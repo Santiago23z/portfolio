@@ -5,36 +5,36 @@ import linkedin from './linkedin.png'
 import { Link } from 'react-router-dom';
 const Navbar = () => {
   return (
-    <header className='w-full   flex justify-center items-center p-3 '>
-        <nav className='flex justify-between w-[64%] items-center'>
+    <header className='w-full flex justify-center items-center py-5 '>
+      <nav className='flex justify-between w-[68%] items-center'>
       <figure>
-        <img src={sweb} alt="" className='w-28 ' />
+        <img src={sweb} alt="" className='w-48 ' />
       </figure>
       <ul className='flex '>
         <a href="#projects">
-          <li className='p-2 text-xs text-white '>Proyectos</li>
+          <li className='px-2 text-md text-white'>Proyectos</li>
         </a>
         <a href="#tecnologies">
-        <li className='p-2 text-xs  text-white'>Tecnologías</li>
+        <li className='px-2 text-md  text-white'>Tecnologías</li>
         </a>
         <a href="#aboutMe">
-        <li className='p-2 text-xs  text-white'>Sobre mí</li>
+        <li className='px-2 text-md  text-white'>Sobre mí</li>
         </a>
       </ul>
 
       <ul className='flex items-center'>
         <Link to="https://github.com/Santiago23z">
         <li className='mx-4'>
-            <img src={git} alt="" className='w-6'/>
+            <img src={git} alt="" className='w-10'/>
         </li></Link>
         <Link to="https://www.linkedin.com/in/swebcodez-b01341250">
         <li>
-            <img src={linkedin} alt="" className='w-6'/>
+            <img src={linkedin} alt="" className='w-10'/>
         </li>
         </Link>
         
       </ul>
-    </nav>
+      </nav>
     </header>
     
   )

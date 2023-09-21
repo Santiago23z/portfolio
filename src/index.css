@@ -8,10 +8,15 @@
   font-weight:900; /* Ruta al archivo de fuente */
   /* Puedes agregar más formatos aquí para garantizar la compatibilidad con diferentes navegadores */
 }
+*{
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
 
 body {
   font-family: 'monolisa';
-  background: #101e2e;
+  background: #000000;
   margin: 0;
   padding: 0;
   min-height: 100vh;
