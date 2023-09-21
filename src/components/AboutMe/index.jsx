@@ -49,7 +49,7 @@ const AboutMe = () => {
       <figure id='wave' className='text-white' style={{ animation: 'wave 20s linear infinite' }}></figure>
 
       <div className="flex justify-center flex-col w-[35%]">
-        <h1 className="text-transparent bg-gradient-to-b from-[#55C1FF] to-[#A682FF] bg-clip-text  font-extrabold text-5xl my-5">
+        <h1 className="text-transparent bg-gradient-to-b from-[#55C1FF] to-[#A682FF] bg-clip-text  h-11 font-extrabold text-5xl my-5">
           {text}
         </h1>
         <p className="text-white text-2xl">{text2}</p>
