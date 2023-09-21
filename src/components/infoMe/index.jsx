@@ -29,11 +29,11 @@ const YoInfo = () => {
             </figure>
             <div className='flex w-full my-9'>
                 <aside className='w-[48%] mr-9'>
-                    <p className='text-white text-[13px]'>Completé un bootcamp de fundaciones del software que duró 11 meses, con una dedicación de 60 horas semanales. Aprendí los fundamentos de programación y trabajé en proyectos utilizando C, Python y JavaScript, siendo este último mi favorito. Certifiqué mis habilidades al 100% al finalizar el bootcamp, representando un año de aprendizaje y superación personal significativo.</p>
+                    <p className='text-white text-[15px]'>Completé un bootcamp de fundaciones del software que duró 11 meses, con una dedicación de 60 horas semanales. Aprendí los fundamentos de programación y trabajé en proyectos utilizando C, Python y JavaScript, siendo este último mi favorito. Certifiqué mis habilidades al 100% al finalizar el bootcamp, representando un año de aprendizaje y superación personal significativo.</p>
                 </aside>
 
                 <aside className='w-[53%]'>
-                    <p className='text-white text-[13px]'>Comencé mi carrera como freelancer este año. En febrero, contribuí al desarrollo de un plugin de Figma, centrándome en el front-end. Luego, desde mayo hasta ahora, he trabajado como freelancer en icunox, donde automatizo tareas y desarrollo bots de Telegram con Node.js. También he continuado creciendo como desarrollador front-end en proyectos independientes.</p>
+                    <p className='text-white text-[15px]'>Comencé mi carrera como freelancer este año. En febrero, contribuí al desarrollo de un plugin de Figma, centrándome en el front-end. Luego, desde mayo hasta ahora, he trabajado como freelancer en icunox, donde automatizo tareas y desarrollo bots de Telegram con Node.js. También he continuado creciendo como desarrollador front-end en proyectos independientes.</p>
                 </aside>
             </div>
         </aside>
