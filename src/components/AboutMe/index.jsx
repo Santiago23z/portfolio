@@ -2,8 +2,7 @@ import React, { useEffect, useState } from 'react';
 import profile from './me 1.png';
 import elipse from './elipse.png';
 import fatherElipse from './circulo.png';
-import wave from './wave.png'
-import CV from './CV_FRONT-END (1).pdf';
+import CV from './Front-End.pdf';
 import profileColor from './me.png'
 import './style.css';
 import { gbcontext } from '../../helpers/Context';
