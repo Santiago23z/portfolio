@@ -6,6 +6,7 @@ import Technologies from './components/technologies/index'
 import YoInfo from "./components/infoMe";
 import Footer from "./components/footer";
 import { ProviderContext} from "./helpers/Context";
+import Hamburguer from './components/hamburguer/index'
 // function Routes () {
 //   let rutas = useRoutes([
 //     {path:"/projects", element:<Projects/>}
@@ -20,6 +21,7 @@ function App() {
       <BrowserRouter>
       {/* <Routes /> */}
       <Navbar />
+      <Hamburguer />
       <main>
       <Typewriter />
       <Projects />

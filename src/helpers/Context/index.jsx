@@ -7,7 +7,16 @@ const gbcontext = React.createContext();
 
 function ProviderContext ({ children }) {
     let [transitionImage,  setTransitionImage] = React.useState(false);
+    let [opacity, setOpacity] = React.useState(false)
     let [imageColor, setImageColor] = React.useState(false);
+
+    const functionOpacity = () => {
+        setOpacity(true)
+    }
+
+    const functionNotOpacity = () => {
+        setOpacity(false)
+    }
 
     const functionImageHover = () => {
         setImageColor(true)
@@ -32,7 +41,10 @@ function ProviderContext ({ children }) {
             functionNotHovered,
             functionImageNotHover,
             functionImageHover,
-            imageColor
+            imageColor,
+            opacity,
+            functionNotOpacity,
+            functionOpacity
         })}>
             {children}
         </gbcontext.Provider>

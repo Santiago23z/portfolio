@@ -15,7 +15,7 @@ const Technologies = () => {
         <figure id='waves' className='text-white absolute top-0'>
             <img src={flecha} alt="" />
         </figure>
-      <div className='w-[60%]  mt-20'>
+    <div className='w-[80%]  mt-20'>
       <div className=' rounded-lg'>
       <h1 className='text-white text-4xl'>Tecnologías</h1>
 
@@ -79,7 +79,7 @@ const Technologies = () => {
         
       
       </div>
-      <div className='flex animation-desplazar-izquierda '>
+      <div className='flex animation-desplazar-izquierda w-full max-sm:hidden'>
         <img src={html} alt="" className='p-2 w-12 h-12' />
         <img src={figma} alt="" className='p-2 w-12 h-12'/>
         <img src={node} alt="" className='p-2  w-12 h-12'/>
