@@ -13,7 +13,7 @@ const Technologies = () => {
   return (
     <section className='w-[100%] flex justify-center py-28 bg-[#000000] relative' id='tecnologies'>
         <figure id='waves' className='text-white absolute top-0'>
-            <img src={flecha} alt="" />
+            <img src={flecha} alt=""  className='w-full'/>
         </figure>
     <div className='w-[80%]  mt-20'>
       <div className=' rounded-lg'>

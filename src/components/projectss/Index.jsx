@@ -2,6 +2,7 @@ import kary from './assets/kary.png';
 import todos from './assets/todos.png'
 import bot from './assets/Screen Recording 2023-09-14 at 10.02.32 PM.mov'
 import { Link } from 'react-router-dom';
+import batata from './assets/batataHome.png'
 import './assets/style.css';
 
 
@@ -69,6 +70,27 @@ const Projects = () => {
                 <article></article>
                 <article></article>
             </div>
+            <div className='bg-[#46365d] py-5 rounded-md min-w-[300px] max-w-[500px] snap-center'>
+                <article className='px-6'>
+                    <figure>
+                        <img src={batata} className='rounded-md' alt="" />
+                    </figure>
+                    <div className='my-5 min-h-[164px]'>
+                        <h4 className='text-2xl font-bold text-white my-3'>Batata Landing</h4>
+                        <p className='text-white/60'>Desarrollé una landing page de una app completamente responsive, con tailwind, react</p>
+                    </div>
+                    <div className='w-full flex justify-around my-4'>
+                <Link to="https://653044b68f54200327eae0a9--lambent-valkyrie-8b13ea.netlify.app/">
+                    <button className='bg-white py-3 w-full  px-4 rounded-full text-[12px] text-[#A682FF] shadow-md shadow-[#A682FF]  hover:bg-gradient-to-br from-[#ac93ea] to-[#000000]  hover:to-white hover:shadow-md hover:shadow-[white] hover:text-black hover:transition-all duration-500 ease-in-out'>Vista previa</button>
+                </Link>
+                <Link to="https://github.com/Santiago23z/Batatabit">
+                    <button className=' p-3 px-4 w-full  rounded-full text-[12px] text-white  border border-white hover:bg-white hover:text-black  hover:shadow-md hover:shadow-white hover:transition-all duration-500 ease-in-out'>Ver en git hub</button>
+                </Link>
+            </div>
+                </article>
+                
+            </div>
+            
         </section>
     </section>
   )
