@@ -8,7 +8,7 @@ import tailwind from './Frame.png';
 import react from './/react.png';
 import wp from './Frame-1.png';
 import git from './github-mark 1.png'
-import flecha from './selector.png'
+import flecha from './selector.svg'
 const Technologies = () => {
   return (
     <section className='w-[100%] flex justify-center py-28 bg-[#000000] relative' id='tecnologies'>
