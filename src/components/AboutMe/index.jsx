@@ -43,10 +43,10 @@ const AboutMe = () => {
   
 
   return (
-    <header className=' w-full h-[100vh] relative flex justify-center items-center' id='headerSection'>
+    <header className=' w-full h-[100vh] relative flex justify-center items-center ' id='headerSection'>
       <section className="flex justify-center w-full h-full relative">
       <figure id='wave' className='text-white' style={{ animation: 'wave 20s linear infinite' }}></figure>
-      <div className="flex justify-center flex-col w-[80%]">
+      <div className="flex justify-center flex-col min-[767px]:w-[50%] min-[320px]:px-6">
         <h1 className="text-transparent bg-gradient-to-b from-[#55C1FF] to-[#A682FF] bg-clip-text  h-[60px] m-0 font-extrabold text-5xl min-w-[200px] max-w-[360px] sm:h-[60px] max-sm:h-[110px]">
           {text}
         </h1>
@@ -61,10 +61,10 @@ const AboutMe = () => {
           </button>
         </a>
       </div>
-      <figure className="flex justify-center items-center w-[30%] relative ml-10 max-md:hidden">
-        <img src={fatherElipse} alt="" className={`absolute  w-80  bottom-52 left-0  h-80 shadow-lg shadow-[#A682FF] rounded-full ${context.transitionImage ? "animate-grow" : "animate-grow-shrink"}`} />
-        <img src={`${context.imageColor ? profileColor : profile}`} alt="" className="w-[250px] h-[250px] z-10" onMouseEnter={context.functionImageHover} onMouseLeave={context.functionImageNotHover}/>
-        <img src={elipse} alt="" className=" w-52 h-52 absolute bottom-52 right-0 shadow-md shadow-[#A682FF] rounded-full" />
+      <figure className="flex justify-center items-center w-[30%] relative ml-10 max-[766px]:hidden">
+        <img src={fatherElipse} alt="" className={` max-[1020px]:hidden absolute  w-80  bottom-52 left-0  h-80 shadow-lg shadow-[#A682FF] rounded-full ${context.transitionImage ? "animate-grow" : "animate-grow-shrink"}`} />
+        <img src={`${context.imageColor ? profileColor : profile}`} alt="" className="max-[767px]:w-[340px] h-[250px] z-10" onMouseEnter={context.functionImageHover} onMouseLeave={context.functionImageNotHover}/>
+        <img src={elipse} alt="" className=" w-52 h-52 absolute bottom-32 right-0 shadow-md shadow-[#A682FF] rounded-full" />
       </figure>
     </section>
     </header>

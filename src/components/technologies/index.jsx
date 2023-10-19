@@ -8,7 +8,8 @@ import tailwind from './Frame.png';
 import react from './/react.png';
 import wp from './Frame-1.png';
 import git from './github-mark 1.png'
-import flecha from './selector.svg'
+import flecha from './selector.svg';
+
 const Technologies = () => {
   return (
     <section className='w-[100%] flex justify-center py-28 bg-[#000000] relative' id='tecnologies'>
@@ -79,7 +80,7 @@ const Technologies = () => {
         
       
       </div>
-      <div className='flex animation-desplazar-izquierda w-full max-sm:hidden'>
+      <div className='flex animation-desplazar-izquierda w-full hidden'>
         <img src={html} alt="" className='p-2 w-12 h-12' />
         <img src={figma} alt="" className='p-2 w-12 h-12'/>
         <img src={node} alt="" className='p-2  w-12 h-12'/>

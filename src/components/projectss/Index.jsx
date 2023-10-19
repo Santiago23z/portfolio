@@ -8,12 +8,12 @@ import './assets/style.css';
 
 const Projects = () => {
   return (
-    <section className='w-full flex justify-center items-center flex-col bg-gradient-to-b from-[#715AFF] to-[#5c489e] relative py-20' id='projects'>
+    <section className='w-full flex justify-center items-center flex-col bg-gradient-to-b from-[#715AFF] to-[#5c489e] relative py-20 ' id='projects'>
         
         <h1 className=' w-[60%] text-white py-[50px] max-sm:py-[20px] text-4xl'>Proyectos</h1>
 
-        <section className=' flex overflow-x-auto overscroll-x-contain snap-proximity snap-x w-full gap-5 px-4 my-5'>
-            <div className='bg-[#46365d] py-5 rounded-md min-w-[300px] max-w-[500px] snap-center'>
+        <section className=' flex max-sm:overflow-x-auto max-sm:overscroll-x-contain max-sm:snap-proximity max-sm:snap-x w-full gap-5 px-4 my-5 min-[640px]:flex-wrap min-[640px]:justify-center'>
+            <div className='bg-[#46365d] py-5 rounded-md min-w-[300px] max-w-[400px] min-[640px]:max-w-[300px] snap-center'>
                 <article className='px-6'>
                     <figure>
                         <img src={kary} className='rounded-md' alt="" />
@@ -32,7 +32,7 @@ const Projects = () => {
             </div>
                 </article>
             </div>
-            <div className='bg-[#46365d] py-5 rounded-md min-w-[300px] max-w-[500px] snap-center'>
+            <div className='bg-[#46365d] py-5 rounded-md min-w-[300px] max-w-[400px] min-[640px]:max-w-[300px] snap-center'>
                 <article className='px-6'>
                     <figure>
                         <img src={todos} className='rounded-md' alt="" />
@@ -52,7 +52,7 @@ const Projects = () => {
                 </article>
                 
             </div>
-            <div className='bg-[#46365d] py-5 rounded-md min-w-[300px] max-w-[500px] snap-center'>
+            <div className='bg-[#46365d] py-5 rounded-md min-w-[300px] max-w-[400px] min-[640px]:max-w-[300px] snap-center'>
                 <article className='px-6'>
                     <figure>
                         <video src={bot} className='rounded-md' alt="" />
@@ -70,7 +70,7 @@ const Projects = () => {
                 <article></article>
                 <article></article>
             </div>
-            <div className='bg-[#46365d] py-5 rounded-md min-w-[300px] max-w-[500px] snap-center'>
+            <div className='bg-[#46365d] py-5 rounded-md min-w-[300px] max-w-[400px] min-[640px]:max-w-[300px] snap-center'>
                 <article className='px-6'>
                     <figure>
                         <img src={batata} className='rounded-md' alt="" />

@@ -10,10 +10,10 @@ const Navbar = () => {
   const {functionOpacity} = React.useContext(gbcontext)
   return (
     <>
-    <HiOutlineMenuAlt3 className='hidden float-right mr-4 mt-5 text-5xl max-sm:block text-white' onClick={functionOpacity}/>
+    <HiOutlineMenuAlt3 className='hidden float-right mr-4 mt-5 text-5xl max-sm:block max-[1023px]:block text-white' onClick={functionOpacity}/>
 
-<header className='w-[100%] flex justify-center items-center py-5 bg-white max-sm:hidden'>
-  <nav className='flex justify-between w-[100%] items-center bg-slate-500'>
+<header className='w-[100%] flex justify-center items-center py-5 max-md:hidden min-[767px]:hidden lg:flex lg:px-20'>
+  <nav className='flex justify-between w-[100%] items-center'>
   <figure>
     <img src={sweb} alt="" className='w-48 ' />
   </figure>
